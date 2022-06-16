@@ -1,0 +1,393 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.4f1 (cb45f9cae8b7) revision 13321721'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19043) 64bit Professional' Language: 'es' Physical Memory: 16333 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Users\samyp\OneDrive\Documentos\Unity Editors\2021.3.4f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+A:/Unity Projects/ejercicio1
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+55280
+Successfully changed project path to: A:/Unity Projects/ejercicio1
+A:/Unity Projects/ejercicio1
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 80.46 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.4f1 (cb45f9cae8b7)
+[Subsystems] Discovering subsystems at path C:/Users/samyp/OneDrive/Documentos/Unity Editors/2021.3.4f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path A:/Unity Projects/ejercicio1/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1660 (ID=0x2184)
+    Vendor:   NVIDIA
+    VRAM:     5991 MB
+    Driver:   30.0.15.1165
+Initialize mono
+Mono path[0] = 'C:/Users/samyp/OneDrive/Documentos/Unity Editors/2021.3.4f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Users/samyp/OneDrive/Documentos/Unity Editors/2021.3.4f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Users/samyp/OneDrive/Documentos/Unity Editors/2021.3.4f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56180
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Users/samyp/OneDrive/Documentos/Unity Editors/2021.3.4f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Users/samyp/OneDrive/Documentos/Unity Editors/2021.3.4f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.009251 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 81.02 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.601 seconds
+Domain Reload Profiling:
+	ReloadAssembly (601ms)
+		BeginReloadAssembly (78ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (419ms)
+			LoadAssemblies (76ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (93ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (23ms)
+			SetupLoadedEditorAssemblies (258ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (50ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (81ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (87ms)
+				ProcessInitializeOnLoadMethodAttributes (39ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.003866 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image A:\Unity Projects\ejercicio1\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image A:\Unity Projects\ejercicio1\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 0.55 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.044 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1044ms)
+		BeginReloadAssembly (219ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (127ms)
+		EndReloadAssembly (714ms)
+			LoadAssemblies (73ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (246ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (46ms)
+			SetupLoadedEditorAssemblies (320ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (14ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (83ms)
+				ProcessInitializeOnLoadAttributes (190ms)
+				ProcessInitializeOnLoadMethodAttributes (22ms)
+				AfterProcessingInitializeOnLoad (9ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 0.75 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3368 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 27 unused Assets / (111.3 KB). Loaded Objects now: 3826.
+Memory consumption went from 115.9 MB to 115.8 MB.
+Total: 3.118000 ms (FindLiveObjects: 0.367800 ms CreateObjectMapping: 0.095300 ms MarkObjects: 2.555500 ms  DeleteObjects: 0.097300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 153899.921013 seconds.
+  path: Assets/UMA/Content/UMA Oomers/FBX/UMA Oomers_Tpose.fbx
+  artifactKey: Guid(23803ff4890176f49bc555ec2c21bd74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UMA/Content/UMA Oomers/FBX/UMA Oomers_Tpose.fbx using Guid(23803ff4890176f49bc555ec2c21bd74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84d7eca8d583cd48049a86593431d82e') in 0.787686 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.287808 seconds.
+  path: Assets/UMA/Content/UMA Oomers/Overlays/UMA_Oomers_A.png
+  artifactKey: Guid(f7cb07d1ee98ab643a06e2233954de87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UMA/Content/UMA Oomers/Overlays/UMA_Oomers_A.png using Guid(f7cb07d1ee98ab643a06e2233954de87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79cefce30725fdc6ccf7eee4df050c1a') in 0.037811 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/UMA/Content/UMA Oomers/Overlays/UMA_Oomers_Legs_Overlay.asset
+  artifactKey: Guid(32869275b6894f0438aee6552c4f3f2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UMA/Content/UMA Oomers/Overlays/UMA_Oomers_Legs_Overlay.asset using Guid(32869275b6894f0438aee6552c4f3f2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79748e501712ae50baef4760d9b1347d') in 0.009627 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/UMA/Content/UMA Oomers/Overlays/UMA_Oomers_Ear_Overlay.asset
+  artifactKey: Guid(82862cabd3b02814188fc81e73578aba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UMA/Content/UMA Oomers/Overlays/UMA_Oomers_Ear_Overlay.asset using Guid(82862cabd3b02814188fc81e73578aba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f384523582730987908e54c47ee32b6e') in 0.006327 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/UMA/Content/UMA Oomers/Overlays/UMA_Oomers_M.tga
+  artifactKey: Guid(c01a623e7789b02468cb9cd3b45ec8ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UMA/Content/UMA Oomers/Overlays/UMA_Oomers_M.tga using Guid(c01a623e7789b02468cb9cd3b45ec8ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac07f14aa8656937cc16175424e75468') in 0.013334 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/UMA/Content/UMA Oomers/Overlays/UMA_Oomers_Mouth Overlay.asset
+  artifactKey: Guid(e2cf5eccd9722854d8278511f2478e64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UMA/Content/UMA Oomers/Overlays/UMA_Oomers_Mouth Overlay.asset using Guid(e2cf5eccd9722854d8278511f2478e64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65ffa9c3b3f6319ef24aabd22418b11b') in 0.006853 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/UMA/Content/UMA Oomers/Overlays/UMA_Oomers_hat_Overlay.asset
+  artifactKey: Guid(11b29ce01d082e8468ca4485d9a39beb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UMA/Content/UMA Oomers/Overlays/UMA_Oomers_hat_Overlay.asset using Guid(11b29ce01d082e8468ca4485d9a39beb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ccbbf46720152bfb4e828bf736e7825') in 0.005725 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/UMA/Content/UMA Oomers/Overlays/UMA_Oomers_Eyebrow Overlay.asset
+  artifactKey: Guid(67dd78bb367d19946a022b59427a5d59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UMA/Content/UMA Oomers/Overlays/UMA_Oomers_Eyebrow Overlay.asset using Guid(67dd78bb367d19946a022b59427a5d59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '543245221a5f396b76b0c75b4d99fba8') in 0.005861 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/UMA/Content/UMA Oomers/Overlays/UMA_Oomers_Flower_Overlay.asset
+  artifactKey: Guid(a454aced8e31cbd41aa75b74284c1ae6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UMA/Content/UMA Oomers/Overlays/UMA_Oomers_Flower_Overlay.asset using Guid(a454aced8e31cbd41aa75b74284c1ae6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '480ce001396935282f24d05dcb0c76cd') in 0.006521 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/UMA/Content/UMA Oomers/Overlays/UMA_Oomers_Dress_Overlay.asset
+  artifactKey: Guid(2b8facf128d71b84588956795bf01414) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UMA/Content/UMA Oomers/Overlays/UMA_Oomers_Dress_Overlay.asset using Guid(2b8facf128d71b84588956795bf01414) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '916488e0322b19b1526615ad25136f71') in 0.005440 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/UMA/Content/UMA Oomers/Overlays/UMA_Oomers_Belt Overlay.asset
+  artifactKey: Guid(6bae54a48ebb1434eaac4f015d8b4416) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UMA/Content/UMA Oomers/Overlays/UMA_Oomers_Belt Overlay.asset using Guid(6bae54a48ebb1434eaac4f015d8b4416) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c10a0028643940a47f1c44f90e2fc028') in 0.005602 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.691073 seconds.
+  path: Assets/UMA/Content/UMA Oomers/Race Data/UMA Oomers_Female.asset
+  artifactKey: Guid(4407592bddd7c0441a82068b6bde121f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UMA/Content/UMA Oomers/Race Data/UMA Oomers_Female.asset using Guid(4407592bddd7c0441a82068b6bde121f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61e71eb9e35a12216c2ec5b92dbbb13a') in 0.005557 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/UMA/Content/UMA Oomers/Race Data/UMA Oomers_Tpose_TPose.asset
+  artifactKey: Guid(017ef427eaae8904ea188226a1ae4a8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UMA/Content/UMA Oomers/Race Data/UMA Oomers_Tpose_TPose.asset using Guid(017ef427eaae8904ea188226a1ae4a8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b31effa279a5bc67c23771f8ec1a3986') in 0.004622 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.936703 seconds.
+  path: Assets/UMA/Content/UMA Oomers/Wardrobes/Male/Shirt_Recipe.asset
+  artifactKey: Guid(94ae4897506b26649882038fd3dcd861) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UMA/Content/UMA Oomers/Wardrobes/Male/Shirt_Recipe.asset using Guid(94ae4897506b26649882038fd3dcd861) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13f3dc6c4fb5b6d62b41ef6be1546259') in 0.004628 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.354206 seconds.
+  path: Assets/UMA/Content/UMA Oomers/Wardrobes/Shared/Eyebrow 2_Recipe.asset
+  artifactKey: Guid(b7f6a2a4b843ab24cbcfcfa944685344) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UMA/Content/UMA Oomers/Wardrobes/Shared/Eyebrow 2_Recipe.asset using Guid(b7f6a2a4b843ab24cbcfcfa944685344) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b3fa45044bfb30d9a003e1f9fc9c45c') in 0.005891 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/UMA/Content/UMA Oomers/Wardrobes/Shared/Legs_Recipe.asset
+  artifactKey: Guid(5caed5b6ec08b7e46bf3d108679b9177) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UMA/Content/UMA Oomers/Wardrobes/Shared/Legs_Recipe.asset using Guid(5caed5b6ec08b7e46bf3d108679b9177) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e3dcdbb006145cff9c371a4669d4cd3') in 0.005629 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/UMA/Content/UMA Oomers/Wardrobes/Shared/Hat 3_Recipe.asset
+  artifactKey: Guid(c15e828b2a7572d4db3c6af6411e9ab7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UMA/Content/UMA Oomers/Wardrobes/Shared/Hat 3_Recipe.asset using Guid(c15e828b2a7572d4db3c6af6411e9ab7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a252d8c270d0a33853c3cda4397992bc') in 0.004608 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/UMA/Content/UMA Oomers/Wardrobes/Shared/Nose 4_Recipe.asset
+  artifactKey: Guid(ce6daeabf92365841b7cc0afdaddba80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UMA/Content/UMA Oomers/Wardrobes/Shared/Nose 4_Recipe.asset using Guid(ce6daeabf92365841b7cc0afdaddba80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '059c7e22b70ffca2931eb1f568993bd9') in 0.004920 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/UMA/Content/UMA Oomers/Wardrobes/Shared/Mouth 6_Recipe.asset
+  artifactKey: Guid(a5d983c5404ce9c4abca5414b4366ae4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UMA/Content/UMA Oomers/Wardrobes/Shared/Mouth 6_Recipe.asset using Guid(a5d983c5404ce9c4abca5414b4366ae4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d90375aa1c9cfd264cef6064254ed59') in 0.005595 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/UMA/Content/UMA Oomers/Wardrobes/Shared/Eyes 1_Recipe.asset
+  artifactKey: Guid(88faf7ba88491f64d98ea2a16a889936) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UMA/Content/UMA Oomers/Wardrobes/Shared/Eyes 1_Recipe.asset using Guid(88faf7ba88491f64d98ea2a16a889936) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f02b3d3f2911d5cc9b223eb3837ad7e') in 0.004649 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/UMA/Content/UMA Oomers/Wardrobes/Shared/Mouth 5_Recipe.asset
+  artifactKey: Guid(59cdf034bca54804b9140a609f10c798) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UMA/Content/UMA Oomers/Wardrobes/Shared/Mouth 5_Recipe.asset using Guid(59cdf034bca54804b9140a609f10c798) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47eac28309905fb95f51d8c3b9df8a9b') in 0.004750 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/UMA/Content/UMA Oomers/Wardrobes/Shared/Hat 2_Recipe.asset
+  artifactKey: Guid(dabd955380b6cdf4e9e5544d2c282eb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UMA/Content/UMA Oomers/Wardrobes/Shared/Hat 2_Recipe.asset using Guid(dabd955380b6cdf4e9e5544d2c282eb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0c2a12c833d7849f7cdb4f013d4a4db') in 0.005498 seconds 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 4.16 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 20 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 20 unused Assets / (75.8 KB). Loaded Objects now: 3872.
+Memory consumption went from 66.7 MB to 66.6 MB.
+Total: 3.987300 ms (FindLiveObjects: 0.373300 ms CreateObjectMapping: 0.097900 ms MarkObjects: 3.415300 ms  DeleteObjects: 0.099800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 2.86 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 20 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 20 unused Assets / (75.9 KB). Loaded Objects now: 3872.
+Memory consumption went from 66.7 MB to 66.6 MB.
+Total: 3.402300 ms (FindLiveObjects: 0.345100 ms CreateObjectMapping: 0.089200 ms MarkObjects: 2.893600 ms  DeleteObjects: 0.073700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003640 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image A:\Unity Projects\ejercicio1\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image A:\Unity Projects\ejercicio1\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 1.09 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.993 seconds
+Domain Reload Profiling:
+	ReloadAssembly (994ms)
+		BeginReloadAssembly (142ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (41ms)
+		EndReloadAssembly (748ms)
+			LoadAssemblies (94ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (259ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (41ms)
+			SetupLoadedEditorAssemblies (328ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (26ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (78ms)
+				ProcessInitializeOnLoadAttributes (188ms)
+				ProcessInitializeOnLoadMethodAttributes (25ms)
+				AfterProcessingInitializeOnLoad (9ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.56 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3363 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 20 unused Assets / (78.5 KB). Loaded Objects now: 3874.
+Memory consumption went from 133.3 MB to 133.2 MB.
+Total: 2.807000 ms (FindLiveObjects: 0.285400 ms CreateObjectMapping: 0.082300 ms MarkObjects: 2.368000 ms  DeleteObjects: 0.070000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
