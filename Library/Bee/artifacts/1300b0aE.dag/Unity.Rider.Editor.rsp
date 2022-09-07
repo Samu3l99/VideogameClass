@@ -122,7 +122,7 @@
 -define:ROSLYN_ANALYZER_FIX
 -define:CSHARP_7_OR_LATER
 -define:CSHARP_7_3_OR_NEWER
--r:"A:/Unity Projects/ejercicio1/Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll"
+-r:"A:/Unity/ejercicio1/Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll"
 -r:"C:/Users/samyp/OneDrive/Documentos/Unity Editors/2021.3.4f1/Editor/Data/Managed/UnityEditor.Graphs.dll"
 -r:"C:/Users/samyp/OneDrive/Documentos/Unity Editors/2021.3.4f1/Editor/Data/Managed/UnityEngine/UnityEditor.CoreModule.dll"
 -r:"C:/Users/samyp/OneDrive/Documentos/Unity Editors/2021.3.4f1/Editor/Data/Managed/UnityEngine/UnityEditor.DeviceSimulatorModule.dll"
@@ -209,6 +209,9 @@
 -r:"C:/Users/samyp/OneDrive/Documentos/Unity Editors/2021.3.4f1/Editor/Data/PlaybackEngines/AndroidPlayer/Unity.Android.Gradle.dll"
 -r:"C:/Users/samyp/OneDrive/Documentos/Unity Editors/2021.3.4f1/Editor/Data/PlaybackEngines/AndroidPlayer/Unity.Android.Types.dll"
 -r:"C:/Users/samyp/OneDrive/Documentos/Unity Editors/2021.3.4f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll"
+-r:"C:/Users/samyp/OneDrive/Documentos/Unity Editors/2021.3.4f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Common.dll"
+-r:"C:/Users/samyp/OneDrive/Documentos/Unity Editors/2021.3.4f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll"
+-r:"C:/Users/samyp/OneDrive/Documentos/Unity Editors/2021.3.4f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll"
 -r:"C:/Users/samyp/OneDrive/Documentos/Unity Editors/2021.3.4f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll"
 -r:"C:/Users/samyp/OneDrive/Documentos/Unity Editors/2021.3.4f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/Microsoft.Win32.Primitives.dll"
 -r:"C:/Users/samyp/OneDrive/Documentos/Unity Editors/2021.3.4f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/netstandard.dll"

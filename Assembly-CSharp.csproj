@@ -56,11 +56,32 @@
     <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\FingersLite\Demo\DemoScript.cs" />
+    <Compile Include="Assets\FingersLite\Script\Gestures\SwipeGestureRecognizer.cs" />
+    <Compile Include="Assets\FingersLite\Script\Gestures\LongPressGestureRecognizer.cs" />
+    <Compile Include="Assets\FingersLite\Script\FingersScript.cs" />
+    <Compile Include="Assets\FingersLite\Demo\DemoAsteroidScript.cs" />
+    <Compile Include="Assets\Scripts\EventsAcelerometer.cs" />
+    <Compile Include="Assets\FingersLite\Script\Gestures\RotateGestureRecognizer.cs" />
+    <Compile Include="Assets\Scripts\MenuManager.cs" />
+    <Compile Include="Assets\FingersLite\Script\Gestures\GestureRecognizer.cs" />
+    <Compile Include="Assets\Scripts\Events.cs" />
+    <Compile Include="Assets\FingersLite\Script\Gestures\OneTouchRotateGestureRecognizer.cs" />
+    <Compile Include="Assets\FingersLite\Script\Gestures\PanGestureRecognizer.cs" />
+    <Compile Include="Assets\FingersLite\Script\Gestures\TapGestureRecognizer.cs" />
+    <Compile Include="Assets\Scripts\DemoScriptTouch.cs" />
+    <Compile Include="Assets\FingersLite\Script\Gestures\DeviceInfo.cs" />
+    <Compile Include="Assets\Scripts\EventsMultiTouch.cs" />
+    <Compile Include="Assets\FingersLite\Script\Gestures\ScaleGestureRecognizer.cs" />
     <Compile Include="Assets\Scripts\Manager.cs" />
+    <Compile Include="Assets\FingersLite\Script\Gestures\OneTouchScaleGestureRecognizer.cs" />
+    <Compile Include="Assets\Scripts\EventsVpad.cs" />
+    <Compile Include="Assets\Scripts\acelerometer.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
+    <None Include="Assets\FingersLite\Readme.txt" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMPro_Mobile.cginc" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF SSD.shader" />
@@ -78,6 +99,7 @@
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF Overlay.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap-Mobile.shader" />
     <None Include="Assets\TextMesh Pro\Fonts\LiberationSans - OFL.txt" />
+    <None Include="Assets\FingersLite\ChangeLog.txt" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_Sprite.shader" />
   </ItemGroup>
@@ -324,6 +346,12 @@
     </Reference>
     <Reference Include="Newtonsoft.Json">
       <HintPath>Library\PackageCache\com.unity.nuget.newtonsoft-json@3.0.2\Runtime\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.iOS.Extensions.Xcode">
+      <HintPath>C:\Users\samyp\OneDrive\Documentos\Unity Editors\2021.3.4f1\Editor\Data\PlaybackEngines\iOSSupport\UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.iOS.Extensions.Common">
+      <HintPath>C:\Users\samyp\OneDrive\Documentos\Unity Editors\2021.3.4f1\Editor\Data\PlaybackEngines\iOSSupport\UnityEditor.iOS.Extensions.Common.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Android.Types">
       <HintPath>C:\Users\samyp\OneDrive\Documentos\Unity Editors\2021.3.4f1\Editor\Data\PlaybackEngines\AndroidPlayer\Unity.Android.Types.dll</HintPath>
